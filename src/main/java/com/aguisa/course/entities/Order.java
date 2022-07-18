@@ -34,9 +34,6 @@ public class Order implements Serializable {
 	@JoinColumn(name = "client_id")
 	private User client;
 	
-	/*@ManyToOne
-	@JoinColumn(name = "product_id")
-	private Product product;*/
 	
 	public Order() {
 	}
